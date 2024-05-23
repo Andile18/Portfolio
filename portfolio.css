@@ -15,7 +15,7 @@ p{
         font-weight: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
          font-weight: bold;
         font-family: var(--heading-font-family);
         color: black;
@@ -29,7 +29,7 @@ h2 {
         font-size: 64px;
 }
 
-h4 {
+h3 {
         font-size: 20px;
 }
 
@@ -39,7 +39,7 @@ h4 {
         line-height: 80%;
 }
 .content-container{
-        padding: 160px 20px;
+        padding: 60px 20px;
 }
 
 .content{
@@ -69,7 +69,7 @@ h4 {
 .hero{
         text-align: center;
         background-color:var(--secondary-color);
-        padding: 160px 20px;
+        padding: 80px 20px;
 }
 
 .content-container{
@@ -187,6 +187,8 @@ footer .contact-box p{
         margin: 0;
 }
 
+
+
 @media(max-width: 900px) {
         h1 {
                 font-size: 44px;
@@ -196,9 +198,7 @@ footer .contact-box p{
                 font-size: 44px;
                 
         }
-        .hero{
-                padding: 80px 20px;
-        }
+      
         .project-description{
                 padding: 0;
                 text-align: centre;
